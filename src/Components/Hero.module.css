@@ -1,0 +1,218 @@
+.container {
+    width: 80%;
+    height: 100%;
+    background: transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.progressBarContainer {
+    border-radius: 40%;
+    border-color: purple;
+    width: 60%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar {
+    width: 90%;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+.checkIcon {
+    width: 20px;
+}
+.questionNum {
+    color: purple;
+    font-weight: bold;
+    font-size: 1em;
+}
+/* Game Container */
+
+.gameContainer {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.score {
+    color: purple;
+    font-size: 1.7em;
+    margin-top: 10px;
+}
+
+.question {
+    color: purple;
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    font-family: serif;
+}
+.answersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    /* font-family: serif; */
+}
+.answersContainer button {
+    border: 2px solid purple;
+    background-color: transparent;
+    color: purple;     
+    margin: 5px 0px;
+    padding: 15px 30px;
+    transition: 0.7s;
+    border-radius: 13px;
+    margin: 5px 0px;
+}
+.answersContainer button:hover {
+    border: 2px solid purple;
+    background-color: purple;
+    color: white;
+    margin: 5px 0px;
+    padding: 15px 30px;
+}
+.continueBtn {
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    border-radius: 14px;;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.unfocusBtn {
+    margin-top: 20px;
+    background-color: rgba(128, 0, 128, 0.308);
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 20px;
+    border: rgba(128, 0, 128, 0.308);
+    border-radius: 13px;
+    font-weight: bold;
+}
+/* Results Container */
+.currentDetails {
+    /* display: flex; */
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    border-radius: 14px;;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.resultsContainer {
+    letter-spacing: 1px;
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+}
+
+.resultsContainer h1 {
+    font-size: 4em;
+    margin-top: 15px;
+    color: green;
+}
+.resultsContainer h2 {
+    font-size: 3em;
+    margin-top: 10px;
+}
+.resultsContainer h2 span {
+    font-size: 1em;
+}
+.resultsContainer h3 {
+    margin-top: 10px;
+    font-size: 2.8em;
+}
+.resultsContainer h3 span {
+    font-size: 1em;
+}
+.resultsContainer p {
+    margin-top: 20px;
+    font-size: 1.6em;
+    text-align: center;
+}
+.resultsContainer button {
+    margin-top: 20px;
+}
+
+/* Results Details */
+.resultDetails {
+    color: purple;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 20px 30px;
+    font-family: serif;
+}
+.resultDetails p {
+    font-size: 1.6em;
+    margin: 10px 0px;
+}
+.resultDetails h2 {
+    font-size: 2em;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+    .question {
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+    .resultsContainer img {
+        width: 75%;
+    }
+    .resultsContainer button {
+        position: relative;
+        margin-bottom: 40px;
+        /* margin-top: 20px;  */
+        padding: 15px 30px;
+    }
+    .gameContainer {
+        width: 70%;
+    }
+    .resultsContainer {
+        width: 90%;
+    }
+    .answersContainer button {
+        border: 2px solid purple;
+        background-color: transparent;
+        color: purple;     
+        margin: 5px 0px;
+        padding: 15px 30px;
+        transition: 0.7s;
+        border-radius: 13px;
+    }
+    .answersContainer button:hover {
+        border: 2px solid purple;
+        background-color: purple;
+        color: white;
+        margin: 5px 0px;
+        padding: 15px 30px;
+    }
+    .nextIcon {
+        margin-top: 10px;
+        width: 30px;
+    }
+}

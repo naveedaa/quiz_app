@@ -1,0 +1,118 @@
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(201, 89, 136, 0.4), rgba(165, 236, 147, 0.623)), url(./Images/welcome.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.gitHub {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+}
+.github {
+    position: absolute !important;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 5vh;
+    color: purple;
+    text-transform: capitalize;
+    font-family: serif;
+    bottom: 7px;
+    right: 70px;
+    letter-spacing: 2px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.continueBtn {
+    margin-top: 20px;
+    background-color: purple;
+    border-color: purple;
+    color: white;
+    padding: 20px;
+    border-radius: 14px;;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 1s;
+    cursor: pointer;
+    font-family: serif;
+}
+
+.continueBtn:hover {
+    background-color: transparent;
+    color: purple;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    color: purple;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: serif;
+}
+
+.img {
+    margin: 20px 0px;
+    background: transparent;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    cursor: pointer;    
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loading img {
+    width: 50%;
+}
+
+.loading p {
+    font-size: 2em;
+    margin: 0 auto;
+    color: rgba(128, 128, 128, 0.897);
+    font-weight: bolder;
+    font-family: serif;
+    letter-spacing: 2px;
+}
